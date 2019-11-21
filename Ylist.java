@@ -10,6 +10,7 @@ public class Ylist{
 	}
 	public static void print() {
 		Ylist y0 = new Zlist("Yemen", "Yemini Rial","YER", "Fils");
+		list.add(y0);
 		for(Ylist e: list) {
 			System.out.println(e.toString());
 		}

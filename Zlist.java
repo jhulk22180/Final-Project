@@ -11,6 +11,8 @@ public class Zlist{
 	public static void print() {
 		Zlist z0 = new Zlist("Zambia", "Zambian Kwacha","ZMW", "Ngwee");
 		Zlist z1 = new Zlist("Zimbabwe","Zimbabwean Dollar","ZWD","Cent");
+		list.add(z0);
+		list.add(z1);
 		for(Zlist e: list) {
 			System.out.println(e.toString());
 		}

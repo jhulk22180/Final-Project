@@ -1,5 +1,7 @@
 package finalpro;
 
+import java.util.ArrayList;
+
 public class Tlist {
 
 	static ArrayList<Tlist> list =  new ArrayList<Tlist>();
@@ -22,6 +24,19 @@ public class Tlist {
 		Tlist t10 = new Tlist("Turkey","Turkish lira","TRY","Kurus");
 		Tlist t11 = new Tlist("Turkmenistan","Turkmenistan manat","TMT","Tennesi");
 		Tlist t12 = new Tlist("Tuvalu","Tuvaluan dollar","TVD","Cent");
+		list.add(t0);
+		list.add(t1);
+		list.add(t2);
+		list.add(t3);
+		list.add(t4);
+		list.add(t5);
+		list.add(t6);
+		list.add(t7);
+		list.add(t8);
+		list.add(t9);
+		list.add(t10);
+		list.add(t11);
+		list.add(t12);
 		for(Tlist e: list) {
 			System.out.println(e.toString());
 		}

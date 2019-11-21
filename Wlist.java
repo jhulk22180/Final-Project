@@ -10,6 +10,7 @@ public class Wlist{
 	}
 	public static void print() {
 		Wlist w0 = new Wlist("Wallis and Futuna", "CFP franc","XPF", "Centime");
+		list.add(w0);
 		for(Wlist e: list) {
 			System.out.println(e.toString());
 		}

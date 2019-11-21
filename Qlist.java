@@ -9,6 +9,7 @@ public class Qlist {
 	}
 	public static void print() {
 		Qlist q0 = new Qlist("Qatar","Qatari riyal","QAR","Dirham");
+		list.add(q0);
 		for(Qlist e: list) {
 			System.out.println(e.toString());
 		}

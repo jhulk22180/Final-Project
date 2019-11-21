@@ -16,6 +16,13 @@ public class Ulist {
 		Ulist u4 = new Ulist("United States","United States dollar","USD","Cent");
 		Ulist u5 = new Ulist("Uruguay","Uruguayan peso","UYU","Centésimo");
 		Ulist u6 = new Ulist("Uzbekistan","Uzbekistani so m","UZS","Tiyin");
+		list.add(u0);
+		list.add(u1);
+		list.add(u2);
+		list.add(u3);
+		list.add(u4);
+		list.add(u5);
+		list.add(u6);
 		for(Ulist e: list) {
 			System.out.println(e.toString());
 		}

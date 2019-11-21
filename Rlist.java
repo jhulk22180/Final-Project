@@ -11,6 +11,9 @@ public class Rlist {
 		Rlist r0 = new Rlist("Romania","Romanian leu","RON","Ban");
 		Rlist r1 = new Rlist("Russia","Russian ruble","RUB","Kopek");
 		Rlist r2 = new Rlist("Rwanda","Rwandan franc","RWF","Centime");
+		list.add(r0);
+		list.add(r1);
+		list.add(r2);
 		for(Rlist e: list) {
 			System.out.println(e.toString());
 		}

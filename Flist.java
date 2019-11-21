@@ -14,6 +14,12 @@ public class Flist {
 		Flist f3 = new Flist("Finland","Euro","EUR","Cent");
 		Flist f4 = new Flist("France","Euro","EUR","Cent");
 		Flist f5 = new Flist("French Polynesia","CFP franc","XPF","Centime");
+		list.add(f0);
+		list.add(f1);
+		list.add(f2);
+		list.add(f3);
+		list.add(f4);
+		list.add(f5);
 		for(Flist e: list) {
 			System.out.println(e.toString());
 		}
